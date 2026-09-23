@@ -53,5 +53,5 @@ def predict_email(email_text):
 
     return "Spam" if prediction[0] == 1 else "Not spam"
 
-email = "COngratulations! You've won a free iPhone. Click here to claim now."
+email = "Congratulations! You've won a free iPhone. Click here to claim now."
 print(f"Email: {email}\nPrediction: {predict_email(email)}")
